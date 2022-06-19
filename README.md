@@ -3,6 +3,7 @@ this a basic example html by #iexperimen
 
 ## Flip Card
 >Animation : **[FlipCard](https://iexperimen.github.io/html/flipcard)**
+>**[Chips](https://iexperimen.github.io/html/chips)**
 
 
 ### Follow Us
