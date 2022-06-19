@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Flip Card | iExperiment</title>
+    <link rel="shortcut icon" href="https://icollector.000webhostapp.com/assets/icon_iexp.png" />
+    <link rel="icon" href="https://icollector.000webhostapp.com/assets/icon_iexp.png" type="image/jpg">
+    <meta name="og:image" property="og:image" content="https://icollector.000webhostapp.com/assets/icon_iexp.png">
+    <meta name="og:image:type" property="og:image:type" content="image/jpeg">
+    <meta name="og:image:width" property="og:image:width" content="200">
+    <meta name="og:image:height" property="og:image:height" content="200">
+    <meta name="og:title" property="og:title" content="Flip Card | iExperiment">
+    <meta name="description" content="This is a collection of images created by iexperiment, the purpose of these images is to build a puzzle game system that can be used for passwords.">
+    <meta name="keywords" content="metamask, cronos, binance, cro, bnb, mmf, pancakeswap, crypto, eth, ethereum, btc, iexperiment, iexperimen, icollector, icollection, ropsten, rinkeby, binance, eth faucet, eth balance, ropsten faucet, ropsten balance, rinkeby balance, rinkeby faucet, bsc balance, bsc faucet, faucet, balance">
+    <meta name="author" content="iexperiment">
+    <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .flip-card {
+      width: 300px;
+      height: 300px;
+      perspective: 1000px;
+    }
+
+    .flip-card-inner {
+      background: transparent;
+      position: relative;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      transition: transform 0.6s;
+      transform-style: preserve-3d;
+    }
+
+    .flip-card:hover .flip-card-inner {
+      transform: rotateY(180deg);
+    }
+
+    .flip-card-front, .flip-card-back {
+      position: absolute;
+      border-radius: 20px;
+      width: 100%;
+      height: 100%;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+    }
+
+    .flip-card-front {
+      color: black;
+    }
+
+    .flip-card-back {
+      background-color: #222;
+      color: white;
+      transform: rotateY(180deg);
+    }
+    </style>
+  </head>
+  <body>
+    <div align="center">
+
+      <h1>Flip Card</h1>
+      <h3>Hover over the image below</h3>
+
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="https://iexperimen.github.io/assets/icon/icon.png" alt="Avatar" style="width:300px;height:300px;border-radius:20px;">
+          </div>
+          <div class="flip-card-back">
+            <h1>iExperimen</h1> 
+            <p>Developer</p> 
+            <p>IEXP</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
